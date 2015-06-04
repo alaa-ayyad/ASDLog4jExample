@@ -13,6 +13,7 @@ public class WordCount {
 	final static Logger logger = Logger.getLogger(WordCount.class);
     public static void main(String[] args) {
     	logger.info("Hello to word count application" );
+    	logger.info("this is an extra log line" );
         try {
             File f = new File("c:/afile1.txt");
             logger.debug("Reading from file" + f.getName());
